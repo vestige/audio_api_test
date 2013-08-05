@@ -4,6 +4,7 @@ source 'http://rubygems.org'
 
 gem "middleman", "~>3.1.4"
 gem "slim", "~> 2.0.0"
+gem "font-awesome-middleman"
 
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
