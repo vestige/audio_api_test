@@ -1,4 +1,4 @@
-//= require jquery-1.10.2.min.js
+//= require jquery
 
 $(document).ready(function () {
     var trackId = 1047954,
@@ -16,6 +16,7 @@ $(document).ready(function () {
         event.preventDefault();
         if (sound instanceof Audio && !sound.ended) {
             sound.pause();
+            sound.src = sound.src;
         }
     });
 

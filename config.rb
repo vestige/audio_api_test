@@ -56,6 +56,8 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
+set :bower_dir, '../vendor/bower'
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
@@ -71,5 +73,6 @@ configure :build do
   # activate :relative_assets
 
   # Or use a different image path
-  # set :http_path, "/Content/images/"
+  set :http_path, "/assets/"
+  set :http_prefix, "http://www.e2esound.com/"
 end
